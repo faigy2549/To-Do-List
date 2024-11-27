@@ -20,7 +20,19 @@ builder.Services.AddEndpointsApiExplorer(); // This enables the API explorer
 builder.Services.AddSwaggerGen(); // This adds Swagger generation
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ToDoDbContext>();
+    try
+    {
+        dbContext.Database.OpenConnection();
+        app.Logger.LogInformation("Successfully connected to the database.");
+    }
+    catch (Exception ex)
+    {
+        app.Logger.LogError("Database connection failed: " + ex.Message);
+    }
+}
 app.UseCors("AllowAll");
 
 if (app.Environment.IsDevelopment()) // Optionally, enable Swagger only in development
