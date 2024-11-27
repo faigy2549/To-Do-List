@@ -73,5 +73,4 @@ app.MapDelete("/tasks/{id}", async (ToDoDbContext context, int id) =>
     return Results.NoContent();
 });
 
-
 app.Run();
