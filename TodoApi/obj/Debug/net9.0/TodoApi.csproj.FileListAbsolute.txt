@@ -43,3 +43,4 @@ C:\Users\faigy\OneDrive\Documents\programming\Prakticode ToDo List fullstack pro
 C:\Users\faigy\OneDrive\Documents\programming\Prakticode ToDo List fullstack project\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\faigy\OneDrive\Documents\programming\Prakticode ToDo List fullstack project\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\faigy\OneDrive\Documents\programming\Prakticode ToDo List fullstack project\TodoApi\obj\Debug\net9.0\TodoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\faigy\OneDrive\Documents\programming\Prakticode ToDo List fullstack project\TodoApi\obj\Debug\net9.0\TodoApi.sourcelink.json
