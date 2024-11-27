@@ -35,9 +35,9 @@ export default {
     return result.data;
   },
 
-  setCompleted: async (id, isComplete) => {
-    console.log('setCompleted', { id, isComplete });
-    const result = await apiClient.put(`/tasks/${id}`, { isComplete });
+  setCompleted: async (id,name, isComplete) => {
+    console.log('setCompleted', { id,name, isComplete });
+    const result = await apiClient.put(`/tasks/${id}`, { name,isComplete });
     return result.data;
   },
 
