@@ -1,4 +1,4 @@
-
+/* 
  html {
     background-color: #f4f7f7;
     font-size: 18px;  
@@ -15,7 +15,6 @@
   .body{
 line-height: 2.0em;
   }
-  /* Main Container */
   .container {
     display: flex;
     flex-direction: row;
@@ -26,7 +25,6 @@ line-height: 2.0em;
     margin: 0 auto;
   }
   
-  /* Left Section */
   .left-section {
     flex: 1; 
     padding: 30px;
@@ -51,7 +49,6 @@ line-height: 2.0em;
     text-align: center;
   }
   
-  /* Todoapp Section */
   .todoapp {
     flex: 2;  
     background:white;
@@ -63,7 +60,6 @@ line-height: 2.0em;
     height: 500px; 
   }
   
-  /* Header */
   .header {
     padding: 15px;
     text-align: center;
@@ -78,7 +74,7 @@ line-height: 2.0em;
   .new-todo {
     width: 100%;
     padding: 20px;
-    font-size: 22px;  /* Larger font size */
+    font-size: 22px; 
     border-radius: 5px;
     border: 2px solid #ccc;
     outline: none;
@@ -89,7 +85,6 @@ line-height: 2.0em;
     border-color: #36a3f7;
   }
   
-  /* Main Section */
   .main {
     flex-grow: 1; 
     padding: 20px;
@@ -103,7 +98,7 @@ line-height: 2.0em;
   .todo-item {
     display: flex;
     align-items: center;
-    padding: 15px 20px;  /* Increase padding */
+    padding: 15px 20px; 
     border-bottom: 1px solid #f0f0f0;
     transition: all 0.3s ease;
     color:#36a3f7;
@@ -133,14 +128,14 @@ line-height: 2.0em;
   
   label {
     flex-grow: 1;
-    font-size: 22px;  /* Larger font size */
+    font-size: 22px;  
   }
   
   .destroy {
     background: none;
     border: none;
     color: #d9534f;
-    font-size: 22px;  /* Larger button */
+    font-size: 22px;  
     cursor: pointer;
     transition: color 0.3s;
   }
@@ -149,16 +144,15 @@ line-height: 2.0em;
     color: #c9302c;
   }
   
-  /* Footer */
   .footer {
     background-color: #f8cc3b;
     padding: 20px;
     text-align: center;
-    font-size: 18px;  /* Larger font size for footer */
+    font-size: 18px; 
     height: 70px;
   }
   
   .footer-text {
     color: white;
   }
-  
+   */
